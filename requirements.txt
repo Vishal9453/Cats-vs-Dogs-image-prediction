@@ -2,4 +2,4 @@
 flask-cors==3.0.10
 keras==2.6.0
 tensorflow==2.6.0
-gunicorn==23.2.1
+gunicorn
