@@ -20,10 +20,8 @@ def index():
 def predict():
     imagefile = request.files['imagefile']
 
-    # Read the image file into memory
     img_stream = imagefile.read()
 
-    # Convert the image to grayscale and resize
     img = image.load_img(io.BytesIO(img_stream), color_mode='grayscale', target_size=(60, 60))
     img_array = image.img_to_array(img)
     img_array = np.expand_dims(img_array, axis=0)
