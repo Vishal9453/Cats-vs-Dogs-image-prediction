@@ -1,4 +1,6 @@
-﻿flask
+Flask
 flask-cors
-keras
+Keras
+numpy
+Pillow
 tensorflow
