@@ -14,7 +14,7 @@ $(document).ready(function() {
         formData.append('imagefile', file);
 
         try {
-            var response = await fetch('http://127.0.0.1:5000/predict', {
+            var response = await fetch('Chrome/116.0.0.0 Safari/537.36/predict', {
                 method: 'POST',
                 body: formData
             });
