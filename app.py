@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template, jsonify
 from flask_cors import CORS
 import keras
-import pickle
 import numpy as np
 from keras.preprocessing import image
 import io
@@ -9,8 +8,7 @@ import io
 app = Flask(__name__)
 CORS(app)
 
-with open('model.pkl', 'rb') as model_file:
-    model = pickle.load(model_file)
+model = keras.models.load_model('Cats_vs_Dogs.model')
 
 @app.route('/')
 def index():
