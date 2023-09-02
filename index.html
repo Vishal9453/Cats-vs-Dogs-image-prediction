@@ -33,7 +33,7 @@
         formData.append('imagefile', file);
 
         try {
-            var response = await fetch('https://0.0.0.0:10000/predict', {
+            var response = await fetch('https://0.0.0.0:10000', {
                 method: 'POST',
                 body: formData
             });
