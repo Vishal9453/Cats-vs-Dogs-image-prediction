@@ -6,6 +6,7 @@ from keras.preprocessing import image
 import io
 
 app = Flask(__name__)
+app.config['DEBUG'] = True
 CORS(app)
 
 model = keras.models.load_model('Cats_vs_Dogs.model')
