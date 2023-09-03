@@ -42,5 +42,4 @@ def predict():
     return jsonify({'prediction': predicted_class})
 
 if __name__ == '__main__':
-    # Start the Flask app
-    app.run()
+    app.run() # Start the Flask app
