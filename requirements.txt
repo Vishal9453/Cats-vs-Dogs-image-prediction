@@ -4,4 +4,4 @@ keras
 numpy
 Pillow
 gunicorn
-tensorflow.compat.v2
+tensorflow
