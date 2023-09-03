@@ -3,5 +3,4 @@ flask-cors
 numpy
 Pillow
 tensorflow
-pickle
 keras
