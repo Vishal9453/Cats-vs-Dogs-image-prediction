@@ -1,6 +1,6 @@
 Flask
 flask-cors
-Keras
+keras
 numpy
 Pillow
 tensorflow
