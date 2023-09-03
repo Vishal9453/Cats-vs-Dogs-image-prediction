@@ -8,9 +8,10 @@
 3. **Requirements**
 4. **Code Files and Functionalities**
     - `main.py`: Data Preprocessing
-    - `app.py`: CNN Model Building and Training
+    - `training.py`: CNN Model Building and Training
     - `tuning.py`: Hyperparameter Tuning
     - `testing.py`: Model Testing
+    - `app.py`: App Deployment using flask
 5. **Usage Instructions**
 
 ## 1. Introduction
@@ -25,7 +26,7 @@ The project involves several steps, starting from preprocessing the dataset to t
 
 To run the project, you need:
 
-- Python 3.x
+- Python 3
 - Libraries: numpy, OpenCV (cv2), Keras, pickle, os
 
 ## 4. Code Files and Functionalities
@@ -34,7 +35,7 @@ To run the project, you need:
 
 This file is responsible for preprocessing the dataset. It reads the images, resizes them, converts to grayscale, and stores the processed data in serialized files.
 
-### `app.py`: CNN Model Building and Training
+### `training.py`: CNN Model Building and Training
 
 This file builds, compiles, and trains the CNN model using Keras. It uses the processed data from `main.py` for training and saves the trained model to a file.
 
@@ -46,15 +47,19 @@ This file explores hyperparameter configurations for the CNN model. It iterates 
 
 This file loads the trained model and tests it on a set of test images. It predicts the classes of the images and prints the results.
 
+### `app.py`: App Deployment using Flask
+
+This file deploys the app on local system using flask and can be deployed on web after altering the adresses.
+
 ## 5. Usage Instructions
 
 1. Place the dataset images in the appropriate folders as per the structure defined in the code files.
 
 2. Run `main.py` to preprocess the dataset and create serialized files 'X.pkl' and 'y.pkl'.
 
-3. Execute `app.py` to build, compile, and train the CNN model. The trained model will be saved as 'Cats_vs_Dogs.model'.
+3. Execute `training.py` to build, compile, and train the CNN model. The trained model will be saved as 'Cats_vs_Dogs.model'.
 
-4. Optionally, run `tuning.py` to explore hyperparameter configurations and save the best model.
+4. Optionally(recommended), run `tuning.py` to explore hyperparameter configurations and save the best model.
 
 5. For model testing, run `testing.py`. This will load the trained model and predict classes for randomly selected test images.
 
