@@ -33,7 +33,7 @@
         formData.append('imagefile', file);
 
         try {
-            var response = await fetch('https://cats-vs-dogs-image-prediction.onrender.com/predict', {
+            var response = await fetch('https://cats-vs-dogs-image-prediction.onrender.com', {
                 method: 'POST',
                 body: formData
             });
