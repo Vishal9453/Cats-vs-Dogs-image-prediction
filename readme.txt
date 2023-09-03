@@ -1,4 +1,6 @@
 
+Dataset used for this project: "https://www.kaggle.com/datasets/kunalgupta2616/dog-vs-cat-images-data" 
+
 # Cats vs Dogs Image Classification Project Documentation
 
 **Table of Contents:**
