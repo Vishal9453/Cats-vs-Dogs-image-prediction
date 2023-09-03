@@ -10,13 +10,14 @@
     <h1 class="text-center">Image Classifier</h1>
 
     <!-- Form for Uploading an Image -->
-    <form class="p-3 text-center" enctype="multipart/form-data">
-        <!-- Input Field for Image File -->
-        <input class="form-control" type="file" id="imageFile" accept="image/*">
-        
-        <!-- Button to Trigger Image Prediction -->
-        <button class="btn btn-primary mt-3" type="button" id="predictButton">Predict Image</button>
-    </form>
+   <form class="p-3 text-center" enctype="multipart/form-data" action="/predict" method="post">
+    <!-- Input Field for Image File -->
+    <input class="form-control" type="file" id="imageFile" name="imagefile" accept="image/*">
+    
+    <!-- Button to Trigger Image Prediction -->
+    <button class="btn btn-primary mt-3" type="submit" id="predictButton">Predict Image</button>
+</form>
+
 
     <!-- Display Prediction Result -->
     <p class="text-center mt-3" id="predictionResult"></p>
@@ -49,7 +50,7 @@
 
         try {
             // Send a POST request to the server for prediction
-            var response = await fetch('http://127.0.0.1:5000/predict', {
+            var response = await fetch('http://127.0.0.1:10000/predict', {
                 method: 'POST',
                 body: formData
             });
