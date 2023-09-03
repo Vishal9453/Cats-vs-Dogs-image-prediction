@@ -1,6 +1,11 @@
 ﻿Flask
 flask-cors
-Keras
 numpy
 Pillow
 tensorflow
+os
+cv2
+random
+pickle
+keras
+time
