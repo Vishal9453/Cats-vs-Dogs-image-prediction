@@ -3,5 +3,4 @@ flask-cors
 keras
 numpy
 Pillow
-tensorflow
 gunicorn
