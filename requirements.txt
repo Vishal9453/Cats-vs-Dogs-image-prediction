@@ -1,5 +1,0 @@
-Flask
-flask-cors
-keras
-numpy
-tensorflow==2.3.0
