@@ -68,6 +68,26 @@ This file deploys the app on local system using flask and can be deployed on web
 
 6. Adjust the code files or experiment with hyperparameters to achieve the desired performance.
 
+## Model Evalution scores:
+
+Accuracy: 0.9123043478260869
+Precision: 0.9322636521104932
+Recall: 0.8892173913043478
+F1 Score: 0.9102318750278161
+Confusion Matrix:
+[[10757   743]
+ [ 1274 10226]]
+## Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.94      0.91     11500
+           1       0.93      0.89      0.91     11500
+
+    accuracy                           0.91     23000
+   macro avg       0.91      0.91      0.91     23000
+weighted avg       0.91      0.91      0.91     23000
+
+
 ## Conclusion
 
 The Cats vs Dogs Image Classification project demonstrates the process of building and training a CNN model for image classification. It covers data preprocessing, model building, hyperparameter tuning, and testing, providing a comprehensive learning experience in the field of machine learning and computer vision.
