@@ -12,13 +12,14 @@ Dataset used for this project: "https://www.kaggle.com/datasets/kunalgupta2616/d
     - `main.py`: Data Preprocessing
     - `training.py`: CNN Model Building and Training
     - `tuning.py`: Hyperparameter Tuning
-    - `testing.py`: Model Testing
+    - `predicting.py`: Model Testing
     - `app.py`: App Deployment using flask
+    - `index.html`: Frontend
 5. **Usage Instructions**
 
 ## 1. Introduction
 
-Welcome to the Cats vs Dogs Image Classification project documentation. This document provides a detailed overview of the project, its purpose, code functionalities, and usage instructions. The project aims to build and train a Convolutional Neural Network (CNN) model to classify images as either cats or dogs. The process involves data preprocessing, model building, hyperparameter tuning, and testing.
+This document provides a detailed overview of the project, its purpose, code functionalities, and usage instructions. The project aims to build and train a Convolutional Neural Network (CNN) model to classify images as either cats or dogs. The process involves data preprocessing, model building, hyperparameter tuning, and testing.
 
 ## 2. Project Overview
 
@@ -45,7 +46,7 @@ This file builds, compiles, and trains the CNN model using Keras. It uses the pr
 
 This file explores hyperparameter configurations for the CNN model. It iterates through different numbers of dense layers, convolutional layers, and neurons, trains models for each configuration, and saves the best model.
 
-### `testing.py`: Model Testing
+### `predicting.py`: Model Testing
 
 This file loads the trained model and tests it on a set of test images. It predicts the classes of the images and prints the results.
 
@@ -75,4 +76,3 @@ For any further questions or assistance, feel free to reach out.
 
 ---
 
-This documentation provides a comprehensive overview of your project, its code files, functionalities, and how to use them to achieve accurate image classification of cats and dogs. Customize it further to add more project-specific details or clarifications as needed.
