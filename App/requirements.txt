@@ -1,8 +1,7 @@
-protobuf>=3.19.0
+protobuf
 Flask==2.1.1
 Flask-Cors
 numpy==1.21.2
 Pillow==8.3.2
 gunicorn==20.1.0
 tensorflow-cpu==2.8.0
-protobuf>=3.19.0
