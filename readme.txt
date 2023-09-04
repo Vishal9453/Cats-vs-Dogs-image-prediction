@@ -13,6 +13,7 @@ Dataset used for this project: "https://www.kaggle.com/datasets/kunalgupta2616/d
     - `training.py`: CNN Model Building and Training
     - `tuning.py`: Hyperparameter Tuning
     - `predicting.py`: Model Testing
+    - `Evaluation.py`: Model Evaluation
     - `app.py`: App Deployment using flask
     - `index.html`: Frontend
 5. **Usage Instructions**
@@ -49,6 +50,10 @@ This file explores hyperparameter configurations for the CNN model. It iterates 
 ### `predicting.py`: Model Testing
 
 This file loads the trained model and tests it on a set of test images. It predicts the classes of the images and prints the results.
+
+### `Evaluation.py`: Model Evaluation
+
+This file loads the testing data and make evaluations scores based on the moedel's perfromance.
 
 ### `app.py`: App Deployment using Flask
 
