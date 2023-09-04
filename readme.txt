@@ -93,6 +93,12 @@ Confusion Matrix:
 weighted avg       0.91      0.91      0.91     23000
 
 
+## Deployment instructions
+
+1- Run the app.py file to start the server.
+2- Once the server is running open the index.html file on the browser.
+3- The app will be working now and will be ready for making predictions.
+
 ## Conclusion
 
 The Cats vs Dogs Image Classification project demonstrates the process of building and training a CNN model for image classification. It covers data preprocessing, model building, hyperparameter tuning, and testing, providing a comprehensive learning experience in the field of machine learning and computer vision.
